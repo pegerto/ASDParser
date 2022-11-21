@@ -1,10 +1,6 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
 name = "ASDParser"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Pegerto Fernandez", email="pegerto@gmail.com" },
 ]
@@ -15,6 +11,25 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.poetry]
+# ...
+packages = [
+    { include = "asdparser", from = "src" },
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
 ]
 
 [project.urls]
