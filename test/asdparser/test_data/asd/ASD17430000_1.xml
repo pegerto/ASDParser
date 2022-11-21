@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD17430000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P21860</UniProt_ID>
+  <Seq_Length>1342</Seq_Length>
+  <Molecule_Weight>148098</Molecule_Weight>
+  <KEGG_ID>hsa:2065</KEGG_ID>
+  <EBI_ID>EBI-720706</EBI_ID>
+  <Function_Summary>Tyrosine-protein kinase that plays an essential role as cell surface receptor for neuregulins. Binds to neuregulin-1 (NRG1) and is activated by it; ligand-binding increases phosphorylation on tyrosine residues and promotes its association with the p85 subunit of phosphatidylinositol 3-kinase (PubMed:20682778). May also be activated by CSPG5 (PubMed:15358134). Involved in the regulation of myeloid cell differentiation (PubMed:27416908).</Function_Summary>
+  <Catalytic_Mechanism>ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-[protein]</Catalytic_Mechanism>
+  <Pfam_ID>PF00757:Furin-like@@PF14843:GF_recep_IV@@PF07714:Pkinase_Tyr@@PF01030:Recep_L_domain</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <allosteric__site__count>0</allosteric__site__count>
+  <Molecule_Class>Transferase</Molecule_Class>
+  <Molecule_Subclass>Kinase</Molecule_Subclass>
+  <Alias_List>
+      <Alias>Tyrosine kinase-type cell surface receptor HER3</Alias>
+      <Alias>Proto-oncogene-like protein c-ErbB-3</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Increases the activity of a protein tyrosine kinase, an enzyme which phosphorylates a tyrosyl phenolic group on a protein.</Detail>
+      <Keyword>Protein tyrosine kinase activator activity</Keyword>
+      <Ontology_ID>GO:0030296</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a ubiquitin protein ligase enzyme, any of the E3 proteins.</Detail>
+      <Keyword>Ubiquitin protein ligase binding</Keyword>
+      <Ontology_ID>GO:0031625</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with a signal and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity by catalysis of the reaction: ATP + a protein-L-tyrosine = ADP + a protein-L-tyrosine phosphate.</Detail>
+      <Keyword>Transmembrane receptor protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004714</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular signal and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity.</Detail>
+      <Keyword>Transmembrane receptor activity</Keyword>
+      <Ontology_ID>GO:0004888</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nonidentical protein to form a heterodimer.</Detail>
+      <Keyword>Protein heterodimerization activity</Keyword>
+      <Ontology_ID>GO:0046982</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any growth factor, proteins or polypeptides that stimulate a cell or organism to grow or proliferate.</Detail>
+      <Keyword>Growth factor binding</Keyword>
+      <Ontology_ID>GO:0019838</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the phosphatidylinositol 3-kinase cascade.</Detail>
+      <Keyword>Positive regulation of phosphatidylinositol 3-kinase cascade</Keyword>
+      <Ontology_ID>GO:0014068</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell adhesion.</Detail>
+      <Keyword>Negative regulation of cell adhesion</Keyword>
+      <Ontology_ID>GO:0007162</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the cranial nerves over time, from its formation to the mature structure. The cranial nerves are composed of twelve pairs of nerves that emanate from the nervous tissue of the hindbrain. These nerves are sensory, motor, or mixed in nature, and provide the motor and general sensory innervation of the head, neck and viscera. They mediate vision, hearing, olfaction and taste and carry the parasympathetic innervation of the autonomic ganglia that control visceral functions.</Detail>
+      <Keyword>Cranial nerve development</Keyword>
+      <Ontology_ID>GO:0021545</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of nervous tissue over time, from its formation to its mature state.</Detail>
+      <Keyword>Nervous system development</Keyword>
+      <Ontology_ID>GO:0007399</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of signal transduction.</Detail>
+      <Keyword>Negative regulation of signal transduction</Keyword>
+      <Ontology_ID>GO:0009968</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the controlled release of a substance from a cell or group of cells.</Detail>
+      <Keyword>Negative regulation of secretion</Keyword>
+      <Ontology_ID>GO:0051048</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires the specialized features of a Schwann cell. Schwann cells are found in the peripheral nervous system, where they insulate neurons and axons, and regulate the environment in which neurons function.</Detail>
+      <Keyword>Schwann cell differentiation</Keyword>
+      <Ontology_ID>GO:0014037</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the heart over time, from its formation to the mature structure. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood.</Detail>
+      <Keyword>Heart development</Keyword>
+      <Ontology_ID>GO:0007507</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of a cardiac cushion over time, from its initial formation to the mature structure. The endocardial cushion is a specialized region of mesenchymal cells that will give rise to the heart septa and valves.</Detail>
+      <Keyword>Endocardial cushion development</Keyword>
+      <Ontology_ID>GO:0003197</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of cell proliferation.</Detail>
+      <Keyword>Positive regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0008284</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Positive regulation of gene expression</Keyword>
+      <Ontology_ID>GO:0010628</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a transmembrane receptor tyrosine kinase binding to its physiological ligand.</Detail>
+      <Keyword>Transmembrane receptor protein tyrosine kinase signaling pathway</Keyword>
+      <Ontology_ID>GO:0007169</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of apoptosis in neurons, the basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.</Detail>
+      <Keyword>Neuron apoptosis</Keyword>
+      <Ontology_ID>GO:0051402</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates, maintains or increases the frequency, rate or extent of cardiac muscle tissue development.</Detail>
+      <Keyword>Positive regulation of cardiac muscle tissue development</Keyword>
+      <Ontology_ID>GO:0055025</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis in neurons.</Detail>
+      <Keyword>Negative regulation of neuron apoptosis</Keyword>
+      <Ontology_ID>GO:0043524</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cell proliferation.</Detail>
+      <Keyword>Regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0042127</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency, or extent of protein tyrosine kinase activity.</Detail>
+      <Keyword>Positive regulation of protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0061098</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the peripheral nervous system over time, from its formation to the mature structure. The peripheral nervous system is one of the two major divisions of the nervous system. Nerves in the PNS connect the central nervous system (CNS) with sensory organs, other organs, muscles, blood vessels and glands.</Detail>
+      <Keyword>Peripheral nervous system development</Keyword>
+      <Ontology_ID>GO:0007422</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cell motility.</Detail>
+      <Keyword>Regulation of cell motility</Keyword>
+      <Ontology_ID>GO:2000145</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of reactions, mediated by the intracellular phosphatidylinositol 3-kinase (PI3K). PI3K cascades lie downstream of many cell surface receptor linked signaling pathways and regulate numerous cellular functions.</Detail>
+      <Keyword>Phosphatidylinositol 3-kinase cascade</Keyword>
+      <Ontology_ID>GO:0014065</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of events that restore integrity to a damaged tissue, following an injury.</Detail>
+      <Keyword>Wound healing</Keyword>
+      <Ontology_ID>GO:0042060</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the protein kinase B signaling cascade, a series of reactions mediated by the intracellular serine/threonine kinase protein kinase B.</Detail>
+      <Keyword>Positive regulation of protein kinase B signaling cascade</Keyword>
+      <Ontology_ID>GO:0051897</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cascade of at least three protein kinase activities culminating in the phosphorylation and activation of a MAP kinase. MAPKKK cascades lie downstream of numerous signaling pathways.</Detail>
+      <Keyword>MAPKKK cascade</Keyword>
+      <Ontology_ID>GO:0000165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signaling via the calcineurin-NFAT signaling pathway.</Detail>
+      <Keyword>Positive regulation of calcineurin-NFAT signaling pathway</Keyword>
+      <Ontology_ID>GO:0070886</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>686</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>982</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MRANDALQVLGLLFSLARGSEVGNSQAVCPGTLNGLSVTGDAENQYQTLYKLYERCEVVMGNLEIVLTGHNADLSFLQWIREVTGYVLVAMNEFSTLPLPNLRVVRGTQVYDGKFAIFVMLNYNTNSSHALRQLRLTQLTEILSGGVYIEKNDKLCHMDTIDWRDIVRDRDAEIVVKDNGRSCPPCHEVCKGRCWGPGSEDCQTLTKTICAPQCNGHCFGPNPNQCCHDECAGGCSGPQDTDCFACRHFNDSGACVPRCPQPLVYNKLTFQLEPNPHTKYQYGGVCVASCPHNFVVDQTSCVRACPPDKMEVDKNGLKMCEPCGGLCPKACEGTGSGSRFQTVDSSNIDGFVNCTKILGNLDFLITGLNGDPWHKIPALDPEKLNVFRTVREITGYLNIQSWPPHMHNFSVFSNLTTIGGRSLYNRGFSLLIMKNLNVTSLGFRSLKEISAGRIYISANRQLCYHHSLNWTKVLRGPTEERLDIKHNRPRRDCVAEGKVCDPLCSSGGCWGPGPGQCLSCRNYSRGGVCVTHCNFLNGEPREFAHEAECFSCHPECQPMEGTATCNGSGSDTCAQCAHFRDGPHCVSSCPHGVLGAKGPIYKYPDVQNECRPCHENCTQGCKGPELQDCLGQTLVLIGKTHLTMALTVIAGLVVIFMMLGGTFLYWRGRRIQNKRAMRRYLERGESIEPLDPSEKANKVLARIFKETELRKLKVLGSGVFGTVHKGVWIPEGESIKIPVCIKVIEDKSGRQSFQAVTDHMLAIGSLDHAHIVRLLGLCPGSSLQLVTQYLPLGSLLDHVRQHRGALGPQLLLNWGVQIAKGMYYLEEHGMVHRNLAARNVLLKSPSQVQVADFGVADLLPPDDKQLLYSEAKTPIKWMALESIHFGKYTHQSDVWSYGVTVWELMTFGAEPYAGLRLAEVPDLLEKGERLAQPQICTIDVYMVMVKCWMIDENIRPTFKELANEFTRMARDPPRYLVIKRESGPGIAPGPEPHGLTNKKLEEVELEPELDLDLDLEAEEDNLATTTLGSALSLPVGTLNRPRGSQSLLSPSSGYMPMNQGNLGESCQESAVSGSSERCPRPVSLHPMPRGCLASESSEGHVTGSEAELQEKVSMCRSRSRSRSPRPRGDSAYHSQRHSLLTPVTPLSPPGLEEEDVNGYVMPDTHLKGTPSSREGTLSSVGLSSVLGTEEEDEDEEYEYMNRRRRHSPPHPPRPSSLEELGYEYMDVGSDLSASLGSTQSCPLHPVPIMPTAGTTPDEDYEYMNRQRDGGGPGGDYAAMGACPASEQGYEEMRAFQGPGHQAPHVHYARLKTLRSLEATDSAFDNPDYWHSRLFPKANAQRT</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular space</CellLocal>
+      <Ontology_ID>GO:0005615</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Receptor complex</CellLocal>
+      <Ontology_ID>GO:0043235</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Lateral plasma membrane</CellLocal>
+      <Ontology_ID>GO:0016328</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Basolateral plasma membrane</CellLocal>
+      <Ontology_ID>GO:0016323</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Basal plasma membrane</CellLocal>
+      <Ontology_ID>GO:0009925</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005887</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Apical plasma membrane</CellLocal>
+      <Ontology_ID>GO:0016324</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ERBB3</Gene_Name>
+    <Gene_Alias>HER3</Gene_Alias>
+    <Gene_ID>2065</Gene_ID>
+    <Genbank_ACCN>NM_001005915</Genbank_ACCN>
+    <Protein_ACCN>NP_001005915</Protein_ACCN>
+    <HGNC_ID>3431</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2065</Gene_URL>
+    <UCSC_ID>uc001sjg.4</UCSC_ID>
+    <EMBL_ID>ENSG00000065361</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P29353</Uniprot_ID>
+      <Gene_Name>SHC1</Gene_Name>
+      <EBI_ID>EBI-78835</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-78835</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P43405</Uniprot_ID>
+      <Gene_Name>SYK</Gene_Name>
+      <EBI_ID>EBI-78302</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-78302</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q15303</Uniprot_ID>
+      <Gene_Name>ERBB4</Gene_Name>
+      <EBI_ID>EBI-80371</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-80371</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P46109</Uniprot_ID>
+      <Gene_Name>CRKL</Gene_Name>
+      <EBI_ID>EBI-910</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-910</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P20936</Uniprot_ID>
+      <Gene_Name>RASA1</Gene_Name>
+      <EBI_ID>EBI-1026476</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-1026476</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P46108</Uniprot_ID>
+      <Gene_Name>CRK</Gene_Name>
+      <EBI_ID>EBI-886</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-886</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q68CZ2</Uniprot_ID>
+      <Gene_Name>TNS3</Gene_Name>
+      <EBI_ID>EBI-1220488</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-1220488</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P62993</Uniprot_ID>
+      <Gene_Name>GRB2</Gene_Name>
+      <EBI_ID>EBI-401755</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-401755</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P08631</Uniprot_ID>
+      <Gene_Name>HCK</Gene_Name>
+      <EBI_ID>EBI-346340</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-346340</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P04626</Uniprot_ID>
+      <Gene_Name>ERBB2</Gene_Name>
+      <EBI_ID>EBI-641062</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-641062</PPI_EBI_URL>
+      <Experiment_Number>29</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q92569</Uniprot_ID>
+      <Gene_Name>PIK3R3</Gene_Name>
+      <EBI_ID>EBI-79893</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-79893</PPI_EBI_URL>
+      <Experiment_Number>22</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P27986</Uniprot_ID>
+      <Gene_Name>PIK3R1</Gene_Name>
+      <EBI_ID>EBI-79464</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-79464</PPI_EBI_URL>
+      <Experiment_Number>41</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P21860</Uniprot_ID>
+      <Gene_Name>ERBB3</Gene_Name>
+      <EBI_ID>EBI-720706</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-720706</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q92529</Uniprot_ID>
+      <Gene_Name>SHC3</Gene_Name>
+      <EBI_ID>EBI-79084</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-79084</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P42684</Uniprot_ID>
+      <Gene_Name>ABL2</Gene_Name>
+      <EBI_ID>EBI-1102694</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-1102694</PPI_EBI_URL>
+      <Experiment_Number>10</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O43639</Uniprot_ID>
+      <Gene_Name>NCK2</Gene_Name>
+      <EBI_ID>EBI-713635</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-713635</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P00533</Uniprot_ID>
+      <Gene_Name>EGFR</Gene_Name>
+      <EBI_ID>EBI-297353</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-297353</PPI_EBI_URL>
+      <Experiment_Number>13</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P19174</Uniprot_ID>
+      <Gene_Name>PLCG1</Gene_Name>
+      <EBI_ID>EBI-79387</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-79387</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q14451</Uniprot_ID>
+      <Gene_Name>GRB7</Gene_Name>
+      <EBI_ID>EBI-970191</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-970191</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P12931</Uniprot_ID>
+      <Gene_Name>SRC</Gene_Name>
+      <EBI_ID>EBI-621482</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-621482</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q63HR2</Uniprot_ID>
+      <Gene_Name>TNS2</Gene_Name>
+      <EBI_ID>EBI-949753</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-949753</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O00459</Uniprot_ID>
+      <Gene_Name>PIK3R2</Gene_Name>
+      <EBI_ID>EBI-346930</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-346930</PPI_EBI_URL>
+      <Experiment_Number>16</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q02297-7</Uniprot_ID>
+      <Gene_Name>NRG1</Gene_Name>
+      <EBI_ID>EBI-2460927</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-2460927</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P08238</Uniprot_ID>
+      <Gene_Name>HSP90AB1</Gene_Name>
+      <EBI_ID>EBI-352572</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-352572</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UQQ2</Uniprot_ID>
+      <Gene_Name>SH2B3</Gene_Name>
+      <EBI_ID>EBI-7879749</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-7879749</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P42336</Uniprot_ID>
+      <Gene_Name>PIK3CA</Gene_Name>
+      <EBI_ID>EBI-2116585</EBI_ID>
+      <PPI_EBI_URL>EBI-720706,EBI-2116585</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of an EGFR/HER3 kinase domain heterodimer containing the cancer-associated HER3-Q790R mutation</PDB_Title>
+      <PDB_ID>4RIX</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4RIX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the EGFR/HER3 heterodimer reveals the molecular basis for activating HER3 mutations.</PubMed_Title>
+      <Author>Littlefield, P., et al.</Author>
+      <Journal>Sci.Signal. 2014; 7: ra114-ra114.</Journal>
+      <PubMed_ID>25468994</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HER3 in complex with Fab MF3178</PDB_Title>
+      <PDB_ID>5O7P</PDB_ID>
+      <Resolution>4.5</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5O7P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Unbiased Combinatorial Screening Identifies a Bispecific IgG1 that Potently Inhibits HER3 Signaling via HER2-Guided Ligand Blockade.</PubMed_Title>
+      <Author>De Nardis, C., et al.</Author>
+      <Journal>Cancer Cell. 2018; 33: 922-936.e10.</Journal>
+      <PubMed_ID>29763625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the catalytically inactive kinase domain of the human epidermal growth factor receptor 3 (HER3)</PDB_Title>
+      <PDB_ID>3KEX</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KEX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the catalytically inactive kinase domain of the human EGF receptor 3.</PubMed_Title>
+      <Author>Jura, N., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA. 2009; 106: 21608-21613.</Journal>
+      <PubMed_ID>20007378</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of sErbB3-Fab3379 Complex</PDB_Title>
+      <PDB_ID>5CUS</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5CUS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand></ASD_Ligand>
+      <PubMed_Title>Inhibition of ErbB3 by a monoclonal antibody that locks the extracellular domain in an inactive configuration.</PubMed_Title>
+      <Author>Lee, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA. 2015; 112: 13225-13230.</Journal>
+      <PubMed_ID>26460020</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HER3 extracellular domain in complex with Fab fragment of MOR09825</PDB_Title>
+      <PDB_ID>4P59</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4P59</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An antibody that locks HER3 in the inactive conformation inhibits tumor growth driven by HER2 or neuregulin.</PubMed_Title>
+      <Author>Sprague, E.R., et al.</Author>
+      <Journal>Cancer Res. 2013; 73: 6024-6035.</Journal>
+      <PubMed_ID>23928993</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of an EGFR/HER3 kinase domain heterodimer</PDB_Title>
+      <PDB_ID>4RIW</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4RIW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the EGFR/HER3 heterodimer reveals the molecular basis for activating HER3 mutations.</PubMed_Title>
+      <Author>Littlefield, P., et al.</Author>
+      <Journal>Sci.Signal. 2014; 7: ra114-ra114.</Journal>
+      <PubMed_ID>25468994</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the HER3 (ERBB3) Extracellular Domain</PDB_Title>
+      <PDB_ID>1M6B</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M6B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the extracellular region of HER3 reveals an interdomain tether.</PubMed_Title>
+      <Author>Leahy, D.J., et al.</Author>
+      <Journal>Science. 2002; 297: 1330-1333.</Journal>
+      <PubMed_ID>12154198</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of anti-HER3 Fab RG7116 in complex with the extracellular domains of human Her3 (ERBB3)</PDB_Title>
+      <PDB_ID>4LEO</PDB_ID>
+      <Resolution>2.64</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4LEO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>RG7116, a Therapeutic Antibody That Binds the Inactive HER3 Receptor and Is Optimized for Immune Effector Activation.</PubMed_Title>
+      <Author>Schiller, C.B., et al.</Author>
+      <Journal>Cancer Res. 2013; 73: 5183-5194.</Journal>
+      <PubMed_ID>23780344</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of an EGFR/HER3 kinase domain heterodimer containing the cancer-associated HER3-E909G mutation</PDB_Title>
+      <PDB_ID>4RIY</PDB_ID>
+      <Resolution>2.98</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4RIY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the EGFR/HER3 heterodimer reveals the molecular basis for activating HER3 mutations.</PubMed_Title>
+      <Author>Littlefield, P., et al.</Author>
+      <Journal>Sci.Signal. 2014; 7: ra114-ra114.</Journal>
+      <PubMed_ID>25468994</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the ERBB3 kinase domain in complex with AMP-PNP</PDB_Title>
+      <PDB_ID>3LMG</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LMG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>ErbB3/HER3 intracellular domain is competent to bind ATP and catalyze autophosphorylation.</PubMed_Title>
+      <Author>Shi, F., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA. 2010; 107: 7692-7697.</Journal>
+      <PubMed_ID>20351256</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>anti-EGFR/HER3 Fab DL11 in complex with domains I-III of the HER3 extracellular region</PDB_Title>
+      <PDB_ID>3P11</PDB_ID>
+      <Resolution>3.7</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3P11</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A two-in-one antibody against HER3 and EGFR has superior inhibitory activity compared with monospecific antibodies.</PubMed_Title>
+      <Author>Eigenbrot, C., et al.</Author>
+      <Journal>Cancer Cell. 2011; 20: 472-486.</Journal>
+      <PubMed_ID>22014573</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HER3 pseudokinase domain bound to bosutinib</PDB_Title>
+      <PDB_ID>4OTW</PDB_ID>
+      <Resolution>2.51</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OTW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An ATP-Competitive Inhibitor Modulates the Allosteric Function of the HER3 Pseudokinase.</PubMed_Title>
+      <Author>Littlefield, P., et al.</Author>
+      <Journal>Chem.Biol. 2014; 21: 453-458.</Journal>
+      <PubMed_ID>24656791</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HER3 in complex with Fab MF3178</PDB_Title>
+      <PDB_ID>5O4O</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5O4O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Unbiased Combinatorial Screening Identifies a Bispecific IgG1 that Potently Inhibits HER3 Signaling via HER2-Guided Ligand Blockade.</PubMed_Title>
+      <Author>De Nardis, C., et al.</Author>
+      <Journal>Cancer Cell. 2018; 33: 922-936.e10.</Journal>
+      <PubMed_ID>29763625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Spatial structure of dimeric ErbB3 transmembrane domain</PDB_Title>
+      <PDB_ID>2L9U</PDB_ID>
+      <PDB_Method>SOLUTION NMR</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2L9U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Spatial structure and dimer--monomer equilibrium of the ErbB3 transmembrane domain in DPC micelles.</PubMed_Title>
+      <Author>Mineev, K.S., et al.</Author>
+      <Journal>Biochim. Biophys. Acta. 2011; 1808: 2081-2088.</Journal>
+      <PubMed_ID>21575594</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2019-05-26</Create_Date>
+</Organism_Record>
