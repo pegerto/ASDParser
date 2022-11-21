@@ -2,10 +2,9 @@ import os
 import untangle
 import pandas as pd
 
-from model import ASDItem
+from .model import ASDItem
 
-class AsdDB:
-    
+class AsdDB: 
     def __init__(self, directory):
         self.dir = directory
         self.items = {}
