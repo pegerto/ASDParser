@@ -1,0 +1,20 @@
+@startuml 
+
+class ASDItem {
+    str id 
+    str organism
+    str uniprot_id
+    list[str] inhibitors
+    list[str] activators
+    list[str] regulators
+
+    list allosteric_sites
+}
+
+class AllostericSite {
+    str modulator_name
+    str site_residues
+}
+
+ASDItem o-- AllostericSite
+@enduml

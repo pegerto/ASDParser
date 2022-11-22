@@ -22,7 +22,7 @@ class ASDItem:
     uniprot_id: str
     inhibitors: list
     activators: list
-    regulator: list
+    regulators: list
         
     @staticmethod
     def from_xml_obj(xml):
@@ -41,4 +41,4 @@ class ASDItem:
                    allosteric_sites = allosteric_sites,
                    inhibitors = [item[0] for item in modulators if item[1] == 'Inhibitor'],
                    activators = [item[0] for item in modulators if item[1] == 'Activator'],
-                   regulator = [item[0] for item in modulators if item[1] == 'Regulator'])
+                   regulators = [item[0] for item in modulators if item[1] == 'Regulator'])

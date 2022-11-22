@@ -10,3 +10,41 @@ https://doi.org/10.1093/nar/gkv902
 
 This python wrapper allow to retrieve the database easily as python dataclasses as well as provide simple utility functions for panda dataframe that allow to explor and filter intersting subsets of the database.
 
+
+## Installation
+
+ASDPaser is generally distributed using pypi and can install using pip, as follow:
+
+```
+pip install --upgrade ASDParser
+```
+
+## Usage
+
+Allosteric database (ASD) need to be dowloaded under the local file system, intructions for dowload are available under the [ASD project](http://mdl.shsmu.edu.cn/ASD/module/download/download.jsp?tabIndex=1).
+
+
+```
+import pandas as pd
+from asdparser.asd import AsdDB
+
+db = AsdDB(db_directory)
+```
+
+Retrieve a specific item
+
+```
+db.get('ASD01140000_19')
+```
+
+Database properties in panda frames:
+
+```
+db.to_df()
+```
+
+## Data dictionary
+
+The following python dataclasses are available.
+
+![](doc/datadictionary.png)
