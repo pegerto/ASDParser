@@ -1,6 +1,6 @@
 @startuml 
 
-class ASDItem {
+class ASDProtein {
     str id 
     str organism
     str uniprot_id
@@ -16,5 +16,19 @@ class AllostericSite {
     str site_residues
 }
 
-ASDItem o-- AllostericSite
+class PDB {
+    str id
+    str pdb_url
+    str has_ligand
+}
+
+class PTM {
+    int position
+    str type
+}
+
+ASDProtein o-- AllostericSite
+ASDProtein o-- PDB
+ASDProtein o-- PTM
+
 @enduml

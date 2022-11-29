@@ -23,7 +23,7 @@ class PDB:
         return PDB(
                 id=xml.PDB_ID.cdata,
                 pdb_url=xml.PDB_URL.cdata if 'PDB_URL' in xml else None,
-                has_ligand=bool(xml.Has_Ligand.cdata))
+                has_ligand= bool(xml.Has_Ligand.cdata) if 'Has_Ligand' in xml else None)
 
 @dataclass
 class PTM:

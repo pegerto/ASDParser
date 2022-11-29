@@ -656,7 +656,6 @@
       <PDB_ID>ASD01140000_19</PDB_ID>
       <Resolution>-1.0</Resolution>
       <PDB_Method>Model</PDB_Method>
-      <Has_Ligand>No</Has_Ligand>
     </PDB>
   </PDB_List>
   <Enzyme_Nomenclature_List>
