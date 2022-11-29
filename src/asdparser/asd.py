@@ -26,7 +26,8 @@ class AsdDB:
                  len(self.proteins[iid].inhibitors),
                  len(self.proteins[iid].activators),
                  len(self.proteins[iid].regulator),
-                 len(self.proteins[iid].pdbs)] for iid in self.proteins]
+                 len(self.proteins[iid].pdbs),
+                 len(self.proteins[iid].ptms)] for iid in self.proteins]
         
         return pd.DataFrame(data, 
-                            columns=['id','organism', 'uniprot', 'n_allosteric_sites','inihibitors', 'activators', 'regulators','pdbs']) 
+                            columns=['id','organism', 'uniprot', 'n_allosteric_sites','inihibitors', 'activators', 'regulators', 'pdbs', 'ptms']) 

@@ -73,4 +73,4 @@ class ASDProtein:
                    activators = [item[0] for item in modulators if item[1] == 'Activator'],
                    regulators = [item[0] for item in modulators if item[1] == 'Regulator'],
                    pdbs=pdbs,
-                   ptms= ptms)
+                   ptms=ptms)
