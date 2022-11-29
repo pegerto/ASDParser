@@ -32,3 +32,8 @@ def test_ptms_included():
     protein = db.get('ASD02400000_12')
     assert len(protein.ptms) == 4
     assert [ptm.position for ptm in protein.ptms] == [85, 2, 83, 112]
+    
+def test_pdbs_included_no_url():
+    db = AsdDB(DIR_TEST_DATA + "/asd")
+    protein = db.get('ASD17430000_1')
+    assert len(protein.pdbs) == 15

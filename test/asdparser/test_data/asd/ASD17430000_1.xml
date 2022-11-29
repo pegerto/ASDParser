@@ -651,6 +651,13 @@
       <Journal>Biochim. Biophys. Acta. 2011; 1808: 2081-2088.</Journal>
       <PubMed_ID>21575594</PubMed_ID>
     </PDB>
+    <PDB>
+      <PDB_Title>Model of Gamma-aminobutyric acid receptor subunit gamma-1</PDB_Title>
+      <PDB_ID>ASD01140000_19</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_Method>Model</PDB_Method>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
   </PDB_List>
   <Enzyme_Nomenclature_List>
     <Enzyme_Nomenclature>

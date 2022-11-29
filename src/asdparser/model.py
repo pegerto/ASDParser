@@ -22,7 +22,7 @@ class PDB:
     def from_xml_obj(xml):
         return PDB(
                 id=xml.PDB_ID.cdata,
-                pdb_url=xml.PDB_URL.cdata,
+                pdb_url=xml.PDB_URL.cdata if 'PDB_URL' in xml else None,
                 has_ligand=bool(xml.Has_Ligand.cdata))
 
 @dataclass
