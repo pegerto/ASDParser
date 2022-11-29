@@ -25,7 +25,7 @@ class AsdDB:
                  len(self.proteins[iid].allosteric_sites),
                  len(self.proteins[iid].inhibitors),
                  len(self.proteins[iid].activators),
-                 len(self.proteins[iid].regulator),
+                 len(self.proteins[iid].regulators),
                  len(self.proteins[iid].pdbs),
                  len(self.proteins[iid].ptms)] for iid in self.proteins]
         
