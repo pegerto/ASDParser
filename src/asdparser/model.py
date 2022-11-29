@@ -63,7 +63,9 @@ class ASDProtein:
         pdbs = [PDB.from_xml_obj(item) for item in xml.Organism_Record.PDB_List.children]
         
         # ptms
-        ptms = [PTM.from_xml_obj(item) for item in xml.Organism_Record.PTM_List.children]
+        ptms = []
+        if 'PTM_List' in xml.Organism_Record:
+            ptms = [PTM.from_xml_obj(item) for item in xml.Organism_Record.PTM_List.children]
         
         return ASDProtein(id = xml.Organism_Record.Organism_ID.cdata, 
                    organism = xml.Organism_Record.Organism.cdata,
