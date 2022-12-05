@@ -4,12 +4,14 @@ from dataclasses import dataclass
 class AllostericSite:
     modulator_name: str
     site_residues: str
+    pdb_id: str
     
     @staticmethod
     def from_xml_obj(xml):
         return AllostericSite(
             modulator_name = xml.Modulator_Name.cdata,
-            site_residues = xml.Allosteric_Site_Residue.cdata
+            site_residues = xml.Allosteric_Site_Residue.cdata,
+            pdb_id = xml.Allosteric_PDB.cdata
         )
 
 @dataclass

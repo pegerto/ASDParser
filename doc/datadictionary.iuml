@@ -14,6 +14,7 @@ class ASDProtein {
 class AllostericSite {
     str modulator_name
     str site_residues
+    str pdb_id
 }
 
 class PDB {
