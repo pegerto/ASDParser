@@ -21,11 +21,11 @@ class AllostericSite:
                 resids = [int(resid.strip()[3:]) for resid in residues.split(',')]
                 return chain,resids
             except ValueError as err:
-                warnings.warn('invalid site: {site}')
+                warnings.warn(f'invalid site: {site}')
                 return '',[]
                 
         else:
-            warnings.warn('invalid site: {site}')
+            warnings.warn(f'invalid site: {site}')
             return '',[]
     
     @staticmethod
