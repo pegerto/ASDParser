@@ -1,17 +1,40 @@
 from dataclasses import dataclass
+import re
 
 @dataclass
 class AllostericSite:
     modulator_name: str
     site_residues: str
     pdb_id: str
+    chain: str
+    residues: list[int]
+    
+    @staticmethod
+    def _parse_site(site):
+        rex = r'Chain\s(?P<Chain>[A-Za-b1-9]):\s?(?P<Res>(([A-Z]{3}\d+),?\s?)*)'
+        result = re.match(rex, site)
+        if result:
+            chain = result.groupdict()['Chain']
+            residues = result.groupdict()['Res']
+            try: 
+                resids = [int(resid.strip()[3:]) for resid in residues.split(',')]
+                return chain,resids
+            except ValueError as err:
+                raise Exception('Error parse residues' + site)
+                
+        else:
+            raise Exception("Invalid site parse: " + site)
     
     @staticmethod
     def from_xml_obj(xml):
+        site_residue = xml.Allosteric_Site_Residue.cdata
+        chain, residues = AllostericSite._parse_site(site_residue)
         return AllostericSite(
             modulator_name = xml.Modulator_Name.cdata,
             site_residues = xml.Allosteric_Site_Residue.cdata,
-            pdb_id = xml.Allosteric_PDB.cdata
+            pdb_id = xml.Allosteric_PDB.cdata,
+            chain = chain,
+            residues = residues
         )
 
 @dataclass
