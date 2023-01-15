@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 import re
+import warnings
 
 @dataclass
 class AllostericSite:
@@ -20,10 +21,12 @@ class AllostericSite:
                 resids = [int(resid.strip()[3:]) for resid in residues.split(',')]
                 return chain,resids
             except ValueError as err:
-                raise Exception('Error parse residues' + site)
+                warnings.warn('invalid site: {site}')
+                return '',[]
                 
         else:
-            raise Exception("Invalid site parse: " + site)
+            warnings.warn('invalid site: {site}')
+            return '',[]
     
     @staticmethod
     def from_xml_obj(xml):
