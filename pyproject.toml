@@ -1,6 +1,6 @@
 [project]
 name = "ASDParser"
-version = "0.3.2"
+version = "0.3.3"
 authors = [
   { name="Pegerto Fernandez", email="pegerto@gmail.com" },
 ]
@@ -15,6 +15,10 @@ classifiers = [
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+dependencies = [
+  'untangle >= 1.2.0',
 ]
 
 [build-system]
