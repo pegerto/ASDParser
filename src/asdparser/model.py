@@ -9,6 +9,7 @@ class AllostericSite:
     pdb_id: str
     chain: str
     residues: list[int]
+    pdb_uniprot_id: str
     
     @staticmethod
     def _parse_site(site):
@@ -21,7 +22,7 @@ class AllostericSite:
                 resids = [int(resid.strip()[3:]) for resid in residues.split(',')]
                 return chain,resids
             except ValueError as err:
-                warnings.warn(f'invalid site: {site}')
+                warnings.warn(f'invalid site: ${site}')
                 return '',[]
                 
         else:
@@ -37,7 +38,8 @@ class AllostericSite:
             site_residues = xml.Allosteric_Site_Residue.cdata,
             pdb_id = xml.Allosteric_PDB.cdata,
             chain = chain,
-            residues = residues
+            residues = residues,
+            pdb_uniprot_id = xml.PDB_UniProt_ID.cdata
         )
 
 @dataclass
