@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03000000_1</Organism_ID>
+  <Organism>Sulfolobus solfataricus</Organism>
+  <Organism_Latin>Sulfolobus solfataricus</Organism_Latin>
+  <UniProt_ID>Q980Q4</UniProt_ID>
+  <Seq_Length>216</Seq_Length>
+  <Molecule_Weight>24150</Molecule_Weight>
+  <KEGG_ID>sso:SSO0231</KEGG_ID>
+  <Orthology_ID>K00761</Orthology_ID>
+  <Function_Summary>Catalyzes the conversion of uracil and 5-phospho-alpha-D-ribose 1-diphosphate (PRPP) to UMP and diphosphate.</Function_Summary>
+  <Catalytic_Mechanism>UMP + diphosphate = uracil + 5-phospho-alpha-D-ribose 1-diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00156:Pribosyltran</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <allosteric__site__count>3</allosteric__site__count>
+  <Molecule_Class>Transferase</Molecule_Class>
+  <Molecule_Subclass>Transferase</Molecule_Subclass>
+  <Alias_List>
+      <Alias>UMP pyrophosphorylase</Alias>
+      <Alias>Probable uracil phosphoribosyltransferase</Alias>
+      <Alias>UPRTase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with GTP, guanosine triphosphate.</Detail>
+      <Keyword>GTP binding</Keyword>
+      <Ontology_ID>GO:0005525</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a glycosyl group from one compound (donor) to another (acceptor).</Detail>
+      <Keyword>Transferase activity, transferring glycosyl groups</Keyword>
+      <Ontology_ID>GO:0016757</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: diphosphate + UMP = 5-phospho-alpha-D-ribose 1-diphosphate + uracil.</Detail>
+      <Keyword>Uracil phosphoribosyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004845</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a nucleoside, a nucleobase linked to either beta-D-ribofuranose (a ribonucleoside) or 2-deoxy-beta-D-ribofuranose, (a deoxyribonucleoside), e.g. adenosine, guanosine, inosine, cytidine, uridine and deoxyadenosine, deoxyguanosine, deoxycytidine and thymidine (= deoxythymidine).</Detail>
+      <Keyword>Nucleoside metabolic process</Keyword>
+      <Ontology_ID>GO:0009116</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that generates uracil, 2,4-dioxopyrimidine, from derivatives of it without de novo synthesis.</Detail>
+      <Keyword>Uracil salvage</Keyword>
+      <Ontology_ID>GO:0006223</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MPLYVIDKPITLHILTQLRDKYTDQINFRKNLVRLGRILGYEISNTLDYEIVEVETPLGVKTKGVDITDLNNIVIINILRAAVPLVEGLLKAFPKARQGVIGASRVEVDGKEVPKDMDVYIYYKKIPDIRAKVDNVIIADPMIATASTMLKVLEEVVKANPKRIYIVSIISSEYGVNKILSKYPFIYLFTVAIDPELNNKGYILPGLGDAGDRAFG</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Unknown</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>upp</Gene_Name>
+    <Gene_ID>1455384</Gene_ID>
+    <Genbank_ACCN>NC_002754</Genbank_ACCN>
+    <Protein_ACCN>NP_341784</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1455384</Gene_URL>
+  </Gene>
+  <Allosteric_Site_List>
+    <Allosteric_Site>
+      <Modulator_Name>[[(2R,3S,4R,5R)-5-(2-azanyl-6-oxidanylidene-1H-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-oxidanyl-phosphoryl] phosphono hydrogen phosphate</Modulator_Name>
+      <Modulator_ASD_ID>ASD00290006;ASD00290006;ASD00290006;ASD00290006</Modulator_ASD_ID>
+      <Modulator_Alias>GTP;GTP;GTP;GTP</Modulator_Alias>
+      <Modulator_Class>Lig;Lig;Lig;Lig</Modulator_Class>
+      <Modulator_Chain>A;B;D;D</Modulator_Chain>
+      <Modulator_Residue>301;301;217;301</Modulator_Residue>
+      <Modulator_Feature>Activator</Modulator_Feature>
+      <Position>Protein-Protein Interaction</Position>
+      <Site_Overlap>No</Site_Overlap>
+      <Function>Inner Protein Regulator</Function>
+      <Typical_Chain>A;B;D;D</Typical_Chain>
+      <Typical_Residue_ID>91;91;91;91</Typical_Residue_ID>
+      <Allosteric_Site_Residue>Chain A:LYS30,ARG34,ARG37; Chain B:ARG37,LYS91,PRO94; Chain D:ILE26,ASN27,LYS30,ARG34</Allosteric_Site_Residue>
+      <Allosteric_PDB>3G6W</Allosteric_PDB>
+      <PubMed_Title>Structural and kinetic studies of the allosteric transition in Sulfolobus solfataricus uracil phosphoribosyltransferase: Permanent activation by engineering of the C-terminus.</PubMed_Title>
+      <PubMed_ID>19683539</PubMed_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_Site>3G6W-1</PDB_Site>
+      <PDB_Title>ASYMETRIC GTP BOUND STRUCTURE OF UPRTASE FROM SULFOLOBUS SOLFATARICUS CONTAINING PRPP-MG2+ IN HALF OF THE ACTIVE SITES AND R5P AND PPI IN THE OTHER HALF</PDB_Title>
+      <PDB_UniProt_ID>Q980Q4</PDB_UniProt_ID>
+    </Allosteric_Site>
+    <Allosteric_Site>
+      <Modulator_Name>[[(2R,3S,4R,5R)-5-(2-azanyl-6-oxidanylidene-1H-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-oxidanyl-phosphoryl] phosphono hydrogen phosphate</Modulator_Name>
+      <Modulator_ASD_ID>ASD00290006</Modulator_ASD_ID>
+      <Modulator_Alias>GTP</Modulator_Alias>
+      <Modulator_Class>Lig</Modulator_Class>
+      <Modulator_Chain>A</Modulator_Chain>
+      <Modulator_Residue>301</Modulator_Residue>
+      <Modulator_Feature>Activator</Modulator_Feature>
+      <Position>Protein-Protein Interaction</Position>
+      <Site_Overlap>No</Site_Overlap>
+      <Function>Inner Protein Regulator</Function>
+      <Typical_Chain>A</Typical_Chain>
+      <Typical_Residue_ID>91</Typical_Residue_ID>
+      <Allosteric_Site_Residue>Chain A:LYS30,ARG34,ARG37</Allosteric_Site_Residue>
+      <Allosteric_PDB>1VST</Allosteric_PDB>
+      <PubMed_Title>Structural and kinetic studies of the allosteric transition in Sulfolobus solfataricus uracil phosphoribosyltransferase: Permanent activation by engineering of the C-terminus.</PubMed_Title>
+      <PubMed_ID>19683539</PubMed_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_Site>1VST-1</PDB_Site>
+      <PDB_Title>SYMMETRIC SULFOLOBUS SOLFATARICUS URACIL PHOSPHORIBOSYLTRANSFERASE WITH BOUND PRPP AND GTP</PDB_Title>
+    </Allosteric_Site>
+    <Allosteric_Site>
+      <Modulator_Name>[(2R,3S,4R,5R)-5-(4-amino-2-oxo-pyrimidin-1-yl)-3,4-dihydroxy-oxolan-2-yl]methyl (hydroxy-phosphonooxy-phosphoryl) hydrogen phosphate</Modulator_Name>
+      <Modulator_ASD_ID>ASD00150003;ASD00150003;ASD00150003;ASD00150003</Modulator_ASD_ID>
+      <Modulator_Alias>CTP;CTP;CTP;CTP</Modulator_Alias>
+      <Modulator_Class>Lig;Lig;Lig;Lig</Modulator_Class>
+      <Modulator_Chain>A;D;E;H</Modulator_Chain>
+      <Modulator_Residue>1260;4260;5260;8260</Modulator_Residue>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+      <Position>Protein-Protein Interaction</Position>
+      <Site_Overlap>No</Site_Overlap>
+      <Function>Inner Protein Regulator</Function>
+      <Typical_Chain>A;D;E;H</Typical_Chain>
+      <Typical_Residue_ID>91;91;91;91</Typical_Residue_ID>
+      <Allosteric_Site_Residue>Chain A:ARG29,LYS30,VAL33,ARG37,GLU87,LYS91; Chain E:ARG37,LYS91; Chain H:GLU87,LEU90,LYS91,PHE93,PRO94,ALA96</Allosteric_Site_Residue>
+      <Allosteric_PDB>1XTU</Allosteric_PDB>
+      <PubMed_Title>Allosteric regulation and communication between subunits in uracil phosphoribosyltransferase from Sulfolobus solfataricus.</PubMed_Title>
+      <PubMed_ID>15654744</PubMed_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_Site>1XTU-1</PDB_Site>
+      <PDB_Title>SULFOLOBUS SOLFATARICUS URACIL PHOSPHORIBOSYLTRANSFERASE IN COMPLEX WITH URIDINE 5'-MONOPHOSPHATE (UMP) AND CYTIDINE 5'-TRIPHOSPHATE (CTP)</PDB_Title>
+      <PDB_UniProt_ID>Q980Q4</PDB_UniProt_ID>
+    </Allosteric_Site>
+  </Allosteric_Site_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Symmetric Sulfolobus solfataricus uracil phosphoribosyltransferase with bound PRPP and GTP</PDB_Title>
+      <PDB_ID>1VST</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VST</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00290006</ASD_Ligand>
+      <Ligand_Name>GUANOSINE-5'-TRIPHOSPHATE$ALPHA-PHOSPHORIBOSYLPYROPHOSPHORIC ACID</Ligand_Name>
+      <PubMed_Title>Structural and kinetic studies of the allosteric transition in Sulfolobus solfataricus uracil phosphoribosyltransferase: Permanent activation by engineering of the C-terminus.</PubMed_Title>
+      <Author>Christoffersen S, et al.</Author>
+      <Journal>J Mol Biol. 2009 Oct 23;393(2):464-77.</Journal>
+      <PubMed_ID>19683539</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Sulfolobus solfataricus uracil phosphoribosyltransferase in complex with uridine 5'-monophosphate (UMP) and cytidine 5'-triphosphate (CTP)</PDB_Title>
+      <PDB_ID>1XTU</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XTU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <Ligand_Name>CYTIDINE-5'-TRIPHOSPHATE $URIDINE-5'-MONOPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Allosteric regulation and communication between subunits in uracil phosphoribosyltransferase from Sulfolobus solfataricus.</PubMed_Title>
+      <Author>Arent S, et al.</Author>
+      <Journal>Biochemistry. 2005 Jan 25;44(3):883-92.</Journal>
+      <PubMed_ID>15654744</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Sulfolobus solfataricus uracil phosphoribosyltransferase in complex with uridine 5'-monophosphate (UMP)</PDB_Title>
+      <PDB_ID>1XTT</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XTT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ACETIC ACID $URIDINE-5'-MONOPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Allosteric regulation and communication between subunits in uracil phosphoribosyltransferase from Sulfolobus solfataricus.</PubMed_Title>
+      <Author>Arent S, et al.</Author>
+      <Journal>Biochemistry. 2005 Jan 25;44(3):883-92.</Journal>
+      <PubMed_ID>15654744</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Asymetric GTP bound structure of UPRTase from Sulfolobus solfataricus containing PRPP-mg2+ in half of the active sites and R5P and PPi in the other half</PDB_Title>
+      <PDB_ID>3G6W</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G6W</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00290006</ASD_Ligand>
+      <Ligand_Name>GUANOSINE-5'-TRIPHOSPHATE $5-O-phosphono-alpha-D-ribofuranose $PYROPHOSPHATE 2- $ALPHA-PHOSPHORIBOSYLPYROPHOSPHORIC ACID</Ligand_Name>
+      <PubMed_Title>Structural and kinetic studies of the allosteric transition in Sulfolobus solfataricus uracil phosphoribosyltransferase: Permanent activation by engineering of the C-terminus.</PubMed_Title>
+      <Author>Christoffersen S, et al.</Author>
+      <Journal>J Mol Biol. 2009 Oct 23;393(2):464-77.</Journal>
+      <PubMed_ID>19683539</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A HUMAN PHOSPHATASE</PDB_Title>
+      <PDB_ID>1EW2</PDB_ID>
+      <Resolution>1.82</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EW2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of alkaline phosphatase from human placenta at 1.8 A resolution. Implication for a substrate specificity.</PubMed_Title>
+      <Author>Le Du, M.H., et al.</Author>
+      <Journal>J.Biol.Chem.(2001)276:9158-9165</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11124260?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Sulfolobus solfataricus uracil phosphoribosyltransferase with uridine 5'-monophosphate (UMP) bound to half of the subunits</PDB_Title>
+      <PDB_ID>1XTV</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_Method>X-RAY DIFFRACTION</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XTV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>URIDINE-5'-MONOPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Allosteric regulation and communication between subunits in uracil phosphoribosyltransferase from Sulfolobus solfataricus.</PubMed_Title>
+      <Author>Arent S, et al.</Author>
+      <Journal>Biochemistry. 2005 Jan 25;44(3):883-92.</Journal>
+      <PubMed_ID>15654744</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00240</Pathway_ID>
+      <Pathway_Title>Pyrimidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.ih.b.b.ch.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/cathnode/3.40.50.2020</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.4.2.9</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/4/2/9.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00070007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00150003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00290006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

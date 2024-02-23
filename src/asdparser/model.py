@@ -39,7 +39,7 @@ class AllostericSite:
             pdb_id = xml.Allosteric_PDB.cdata,
             chain = chain,
             residues = residues,
-            pdb_uniprot_id = xml.PDB_UniProt_ID.cdata
+            pdb_uniprot_id = xml.PDB_UniProt_ID.cdata if 'PDB_UniProt_ID' in  xml else None
         )
 
 @dataclass

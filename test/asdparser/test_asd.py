@@ -37,3 +37,8 @@ def test_pdbs_included_no_url():
     db = AsdDB(DIR_TEST_DATA + "/asd")
     protein = db.get('ASD17430000_1')
     assert len(protein.pdbs) == 15
+
+def test_allo_site_no_pdb():
+    db = AsdDB(DIR_TEST_DATA + "/asd")
+    protein = db.get('ASD03000000_1')
+    assert len(protein.allosteric_sites) == 3
