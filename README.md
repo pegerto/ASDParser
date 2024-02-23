@@ -2,6 +2,7 @@
 
 ASDParser provides a single parser for Allosteric Database ASD
 
+[![DOI](https://zenodo.org/badge/569017084.svg)](https://zenodo.org/doi/10.5281/zenodo.10699331)
 ```
 Qiancheng Shen, Guanqiao Wang, Shuai Li, Xinyi Liu, Shaoyong Lu, Zhongjie Chen, Kun Song, Junhao Yan, Lv Geng, Zhimin Huang, Wenkang Huang, Guoqiang Chen, Jian Zhang, 
 ASD v3.0: unraveling allosteric regulation with structural mechanisms and biological networks, Nucleic Acids Research, Volume 44, Issue D1, 4 January 2016, Pages D527–D535, 
