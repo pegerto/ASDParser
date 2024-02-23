@@ -19,7 +19,7 @@ classifiers = [
 
 dependencies = [
   'untangle >= 1.2.0',
-  'pandas' >= 2.0.0'
+  'pandas >= 2.0.0'
 ]
 
 [build-system]
