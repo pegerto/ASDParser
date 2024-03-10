@@ -10,6 +10,9 @@ class AllostericSite:
     chain: str
     residues: list[int]
     pdb_uniprot_id: str
+    resolution: float
+    modulator_chain: str
+    position: str
     
     @staticmethod
     def _parse_site(site):
@@ -39,7 +42,10 @@ class AllostericSite:
             pdb_id = xml.Allosteric_PDB.cdata,
             chain = chain,
             residues = residues,
-            pdb_uniprot_id = xml.PDB_UniProt_ID.cdata if 'PDB_UniProt_ID' in  xml else None
+            pdb_uniprot_id = xml.PDB_UniProt_ID.cdata if 'PDB_UniProt_ID' in  xml else None,
+            resolution = float(xml.Resolution.cdata) if 'Resolution' in xml else None,
+            modulator_chain = xml.Modulator_Chain if 'Modulator_Chain' in xml else None,
+            position = xml.Position if 'Position' in xml else None
         )
 
 @dataclass
